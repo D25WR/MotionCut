@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #673ab7;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .pricing {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+  
+  .plan {
+    border: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .plan:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #673ab7;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .features li.special-feature {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #673ab7;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
